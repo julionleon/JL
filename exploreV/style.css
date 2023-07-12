@@ -1,0 +1,84 @@
+@page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .name-board {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+ .logo-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .logo {
+    max-width: 400px;
+    max-height: 400px;
+    pointer-events: auto;
+  }
+
+
+  .edit-button {
+    display: none;
+  }
+
+  .edit-mode .edit-button {
+    display: inline-block;
+  }
+
+  .edit-mode .customer-name .welcome {
+    display: none;
+  }
+  .center {
+
+margin: auto;
+width: 20%;
+padding: 10px;
+}
+
+  .edit-mode .customer-name .welcome {
+    display: inline-block;
+   }
+   
+   .corner-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .no-border {
+    border: none;
+    outline: none;
+  }
+   .customer-name {
+    font-size: 120px;
+  }
+  .show-input .input-field {
+    display: inline-block;
+  }
+  
+   
+ 
+.input-field{
+ 
+    height: 50px;
+    width: 400px;
+    font-size: x-large;
+
+}
